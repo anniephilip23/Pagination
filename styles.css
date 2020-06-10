@@ -1,0 +1,49 @@
+body, html{
+    height: 100%;
+}
+#head1{
+    font-weight: bold; 
+    font-size:80px;
+    font-family: Serif;
+    color: rgb(59, 116, 240);
+}
+#div1 { height: 10%;}
+ #div2 {
+    font-weight: bold; 
+    font-size:20px;
+    font-family: Serif;
+    font-style: italic;
+    color: rgb(3, 26, 61);
+    padding-top:30px;
+    height: 30%;
+    margin-bottom: 2%;
+    text-align:center;
+    
+}
+
+#div3{
+    margin-top: 10% ;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination {
+    display: inline-block;
+  }
+.pagination a {
+    padding: 8px 16px;
+    border: 1px solid black
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  #div7,#div9,#div8{
+      display: flex;
+      flex-direction: row;
+      margin: 2%;
+      font-family: Serif;
+      color: rgb(3, 26, 61);
+      text-align:center;
+      justify-content: center;
+      font-weight: bold;
+  }
